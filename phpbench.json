@@ -1,0 +1,5 @@
+{
+  "$schema": "./vendor/phpbench/phpbench/phpbench.schema.json",
+  "runner.bootstrap": "vendor/autoload.php",
+  "runner.php_binary": "/usr/local/bin/php -d opcache.enable=1 -d opcache.enable_cli=1 -dxdebug.mode=off"
+}

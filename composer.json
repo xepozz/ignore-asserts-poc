@@ -1,0 +1,18 @@
+{
+    "name": "xepozz/ignore-asserts-poc",
+    "autoload": {
+        "psr-4": {
+            "Xepozz\\IgnoreAssertsPoc\\": "src/",
+            "Xepozz\\IgnoreAssertsPoc\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dmitry Derepko",
+            "email": "xepozz@list.ru"
+        }
+    ],
+    "require-dev": {
+        "phpbench/phpbench": "^1.1"
+    }
+}
